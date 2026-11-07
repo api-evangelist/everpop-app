@@ -1,4 +1,4 @@
-# everpop-app
+# Everpop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-everpop-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://everpop.app/
+Everpop is an AI clipping tool that turns a creator's own uploaded videos into published YouTube Shorts, Instagram Reels and Facebook Reels, plus TikTok drafts the creator posts, never downloads from YouTube, publishes to the creator's own connected channels after their confirmation, and reports 48-hour and 7-day YouTube Analytics receipts for eligible Shorts.
+
+**Areas:** Video · AI · Social Media · Shorts · Reels
+
+## Everpop on APIs.io
+
+Everything profiled for Everpop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/everpop-app/](https://apis.io/providers/everpop-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Everpop Campaigns API](https://apis.io/apis/everpop-app/everpop-app-campaigns-api/) — The Campaigns API from Everpop — 3 operation(s) for campaigns.
+- [Everpop Clip API](https://apis.io/apis/everpop-app/everpop-app-clip-api/) — The Clip API from Everpop — 1 operation(s) for clip.
+- [Everpop Generate API](https://apis.io/apis/everpop-app/everpop-app-generate-api/) — The Generate API from Everpop — 1 operation(s) for generate.
+- [Everpop Jobs API](https://apis.io/apis/everpop-app/everpop-app-jobs-api/) — The Jobs API from Everpop — 2 operation(s) for jobs.
+- [Everpop Posts API](https://apis.io/apis/everpop-app/everpop-app-posts-api/) — The Posts API from Everpop — 1 operation(s) for posts.
+- [Everpop Publish API](https://apis.io/apis/everpop-app/everpop-app-publish-api/) — The Publish API from Everpop — 1 operation(s) for publish.
+- [Everpop Receipts API](https://apis.io/apis/everpop-app/everpop-app-receipts-api/) — The Receipts API from Everpop — 1 operation(s) for receipts.
+- [Everpop Usage API](https://apis.io/apis/everpop-app/everpop-app-usage-api/) — The Usage API from Everpop — 1 operation(s) for usage.
+- [Everpop Videos API](https://apis.io/apis/everpop-app/everpop-app-videos-api/) — The Videos API from Everpop — 4 operation(s) for videos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Everpop App Agentic Access](https://apis.io/agentic-access/everpop-app/everpop-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CampaignProofEnvelope](https://apis.io/schemas/everpop-app/everpop-app-campaign-proof-envelope/)
+- [FinalizeUploadEnvelope](https://apis.io/schemas/everpop-app/everpop-app-finalize-upload-envelope/)
+- [ImportVideoEnvelope](https://apis.io/schemas/everpop-app/everpop-app-import-video-envelope/)
+- [JobStatusEnvelope](https://apis.io/schemas/everpop-app/everpop-app-job-status-envelope/)
+- [UploadSlotEnvelope](https://apis.io/schemas/everpop-app/everpop-app-upload-slot-envelope/)
+- [UsageEnvelope](https://apis.io/schemas/everpop-app/everpop-app-usage-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Everpop App Context](https://apis.io/jsonld/everpop-app/everpop-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Everpop API Rules](https://apis.io/rules/everpop-app/everpop-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Everpop App Authentication](https://apis.io/security/everpop-app/everpop-app-authentication/)
+- [Everpop App Domain Security](https://apis.io/security/everpop-app/everpop-app-domain-security/)
+- [Everpop App Vulnerability Disclosure](https://apis.io/security/everpop-app/everpop-app-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Everpop App Plans Pricing](https://apis.io/plans/everpop-app/everpop-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Everpop App Rate Limits](https://apis.io/rate-limits/everpop-app/everpop-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://everpop.app/)
+- [Documentation](https://everpop.app/agents.md)
+- [Getting started](https://everpop.app/skill.md)
+- [API reference](https://everpop.app/openapi.json)
+- [Pricing](https://everpop.app/pricing)
+- [Sign up](https://everpop.app/signup)
+- [Blog](https://everpop.app/blog)
+- [Security](https://everpop.app/security)
+- [Terms of service](https://everpop.app/terms)
+- [Privacy policy](https://everpop.app/privacy)
+- [Status](https://everpop.app/status)
+
+## API Evangelist rating
+
+**Kin Score 65.4** — strong · rubric 0.26.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 63.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 68.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/everpop-app/](https://apis.io/providers/everpop-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Everpop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/everpop-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
